@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.NavBar {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(85, 80, 80, 0.2);
+}
+
+.NavBar > img {
+  max-width: 100%;
+}
