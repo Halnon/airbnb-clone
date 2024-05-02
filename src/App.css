@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Poppins, serif, sans-serif;
 }
 
 body {
@@ -16,4 +17,17 @@ body {
 
 .NavBar > img {
   max-width: 100%;
+}
+
+.hero > img {
+  width: 395px;
+  height: 232px;
+  margin: 32px 77px;
+}
+h1 {
+   margin-left: 36px;
+}
+
+p {
+   margin-left: 36px;
 }
