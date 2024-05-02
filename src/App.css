@@ -15,12 +15,33 @@ body {
   box-shadow: 0 2px 4px 0 rgba(85, 80, 80, 0.2);
 }
 
-.NavBar > img {
+.NavBar, img {
   max-width: 100%;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
-  margin-left: 36px;
+  margin: 36px;
+}
+
+.grid--container--row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.grid--column {
+  flex: 50%;
+  align-content: center;
+}
+
+.grid--column img {
+  margin: 2px 0px;
+  vertical-align: middle;
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
 }
