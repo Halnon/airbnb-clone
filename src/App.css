@@ -69,10 +69,10 @@ body {
   margin: 4px;
 }
 
-.span--1 {
+.grey {
   color: #918E9B;
 }
 
-.span--2 {
+.bold {
   font-weight: bold;
 }
