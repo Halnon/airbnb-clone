@@ -8,6 +8,11 @@ body {
   width: 100%;
 }
 
+h2 {
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
 .NavBar {
   display: flex;
   height: 70px;
@@ -52,7 +57,7 @@ body {
   height: auto;
   width: 176px;
   margin-left: 50px;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 0.1px;
 }
 
