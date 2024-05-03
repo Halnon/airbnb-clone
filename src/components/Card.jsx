@@ -6,10 +6,10 @@ export default function Card() {
             <img src='src\images\katie-zaferes.png' alt='katie-zaferes'/>
             <div className='p--first'>
                 <img src='src\images\star.png' alt='star'/>
-                <p>5.0 <span className='span--1'>(6) . USA</span></p>
+                <p>5.0 <span className='grey'>(6) •  USA</span></p>
             </div>
             <p>Life lessons with Katie Zaferes</p>
-            <p><span className='span--2'>From $136</span> / person</p>
+            <p><span className='bold'>From $136</span> / person</p>
         </div>
     )
 }
