@@ -45,3 +45,34 @@ body {
   width: auto;
   border-radius: 10px;
 }
+
+.katie--zaferes {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 176px;
+  margin-left: 50px;
+  font-size: 12px;
+  line-height: 0.1px;
+}
+
+.katie--zaferes > img {
+  border-radius: 10px;
+}
+
+.p--first {
+  display: flex;
+}
+
+.p--first > img {
+  height: 14px;
+  margin: 4px;
+}
+
+.span--1 {
+  color: #918E9B;
+}
+
+.span--2 {
+  font-weight: bold;
+}
