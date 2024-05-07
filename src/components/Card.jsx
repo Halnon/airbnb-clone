@@ -4,9 +4,9 @@ export default function Card(props) {
     console.log(props)
     return (
         <div className='katie--zaferes'>
-            <img src={`../src/images/${props.img}`} alt='main card image'/>
+            <img src={`public/images/${props.img}`} alt='main card image'/>
             <div className='p--first'>
-                <img src='src\images\star.png' alt='star icon'/>
+                <img src='public/images/star.png' alt='star icon'/>
                 <p>{props.rating}<span className='grey'>({props.reviewCount}) • {props.country}</span></p>
             </div>
             <h2>{props.title}</h2>
