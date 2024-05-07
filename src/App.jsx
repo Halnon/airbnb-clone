@@ -13,14 +13,16 @@ export default function App() {
                     location={data.location}
                     title={data.title}
                     price={data.price}
-                    
                 />
     })
     return (
         <div>
             <NavBar />
             <Hero />
-            {cardData}
+            <section className='cards--list'>
+                {cardData}
+            </section>
+            
         </div>
     )
 }
