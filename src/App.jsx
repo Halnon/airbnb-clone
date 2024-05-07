@@ -5,18 +5,22 @@ import Card from './components/Card.jsx';
 import data from './data.js';
 
 export default function App() {
+    const cardData = data.map((data) => {
+        return <Card 
+                    img={data.coverImg}
+                    rating={data.stats.rating}
+                    reviewCount={data.stats.reviewCount}
+                    location={data.location}
+                    title={data.title}
+                    price={data.price}
+                    
+                />
+    })
     return (
         <div>
             <NavBar />
             <Hero />
-            <Card 
-                img='katie-zaferes.png'
-                rating={5.0}
-                reviewCount={6}
-                location='USA'
-                title='Life lessons with Katie Zaferes'
-                price={136}
-            />
+            {cardData}
         </div>
     )
 }
