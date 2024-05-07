@@ -1,3 +1,5 @@
+/* universal styles */
+
 * {
   box-sizing: border-box;
   font-family: Poppins, serif, sans-serif;
@@ -13,6 +15,20 @@ h2 {
   font-weight: normal;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+section {
+  padding: 20px;
+}
+
+/* Nav bar styles */
+
 .NavBar {
   display: flex;
   height: 70px;
@@ -23,6 +39,8 @@ h2 {
 .NavBar, img {
   max-width: 100%;
 }
+
+/* hero styles */
 
 .hero {
   display: flex;
@@ -51,34 +69,44 @@ h2 {
   border-radius: 10px;
 }
 
-.component-img---main {
-  display: inline-flex;
-  flex-direction: column;
-  height: auto;
-  width: 176px;
-  margin-left: 50px;
-  font-size: 0.75rem;
-  line-height: 0.1px;
-}
+/* lessons styles */
 
-.component-img---main > img {
-  border-radius: 10px;
-  height: 235px;
-}
-
-.p--first {
+.cards-list {
   display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
 
-.p--first > img {
+.card {
+  display: flex;         
+  flex-direction: column; 
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;        
+}
+
+.card--image {
+  width: 100%;
+  height: 235px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
   height: 14px;
-  margin: 4px;
 }
 
-.grey {
-  color: #918E9B;
-}
-
-.bold {
-  font-weight: bold;
+.card--price {
+  margin-top: auto;
 }
