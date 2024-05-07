@@ -52,7 +52,7 @@ h2 {
 }
 
 .component-img---main {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   height: auto;
   width: 176px;
