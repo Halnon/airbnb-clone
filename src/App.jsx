@@ -2,7 +2,7 @@ import React from "react"
 import NavBar from './components/NavBar.jsx';
 import Hero from './components/Hero.jsx';
 import Card from './components/Card.jsx';
-import data from './src/data.js';
+import data from './data.js';
 
 export default function App() {
     return (
