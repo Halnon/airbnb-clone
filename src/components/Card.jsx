@@ -1,7 +1,6 @@
 import React from "react"
 
 export default function Card(props) {
-    console.log(props)
     return (
         <div className='component-img---main'>
             <img src={`public/images/${props.img}`} alt='main card image'/>
