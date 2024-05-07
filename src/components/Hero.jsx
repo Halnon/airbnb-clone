@@ -6,27 +6,27 @@ export default function Hero() {
             <div className='grid--container--row'>
 
                 <div className='grid--column'>
-                    <div className='grid--item'><img src='public\images\hero-grid\grid1.jpg' alt='grid1' /></div>
+                    <div className='grid--item'><img src='\images\hero-grid\grid1.jpg' alt='grid1' /></div>
                 </div>
 
                 <div className='grid--column'>
-                    <div className='grid--item'><img src='public\images\hero-grid\grid2.jpg' alt='grid2' /></div>
-                    <div className='grid--item'><img src='public\images\hero-grid\grid3.jpg' alt='grid3' /></div>
+                    <div className='grid--item'><img src='\images\hero-grid\grid2.jpg' alt='grid2' /></div>
+                    <div className='grid--item'><img src='\images\hero-grid\grid3.jpg' alt='grid3' /></div>
                 </div>
 
                 <div className='grid--column'>
-                    <div className='grid--item'><img src='public\images\hero-grid\grid4.jpg' alt='grid4' /></div>
-                    <div className='grid--item'><img src='public\images\hero-grid\grid5.jpg' alt='grid5' /></div>
+                    <div className='grid--item'><img src='\images\hero-grid\grid4.jpg' alt='grid4' /></div>
+                    <div className='grid--item'><img src='\images\hero-grid\grid5.jpg' alt='grid5' /></div>
                 </div>
 
                 <div className='grid--column'>
-                    <div className='grid--item'><img src='public\images\hero-grid\grid6.jpg' alt='grid6' /></div>
-                    <div className='grid--item'><img src='public\images\hero-grid\grid7.jpg' alt='grid7' /></div>
+                    <div className='grid--item'><img src='\images\hero-grid\grid6.jpg' alt='grid6' /></div>
+                    <div className='grid--item'><img src='\images\hero-grid\grid7.jpg' alt='grid7' /></div>
                 </div>
 
                 <div className='grid--column'>
-                    <div className='grid--item'><img src='public\images\hero-grid\grid8.jpg' alt='grid8' /></div>
-                    <div className='grid--item'><img src='public\images\hero-grid\grid9.jpg' alt='grid9' /></div>
+                    <div className='grid--item'><img src='\images\hero-grid\grid8.jpg' alt='grid8' /></div>
+                    <div className='grid--item'><img src='\images\hero-grid\grid9.jpg' alt='grid9' /></div>
                 </div>
 
             </div>
