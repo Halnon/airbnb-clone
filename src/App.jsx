@@ -13,7 +13,7 @@ export default function App() {
                 img='katie-zaferes.png'
                 rating={5.0}
                 reviewCount={6}
-                country='USA'
+                location='USA'
                 title='Life lessons with Katie Zaferes'
                 price={136}
             />
