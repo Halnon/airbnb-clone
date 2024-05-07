@@ -51,7 +51,7 @@ h2 {
   border-radius: 10px;
 }
 
-.katie--zaferes {
+.component-img---main {
   display: flex;
   flex-direction: column;
   height: auto;
@@ -61,7 +61,7 @@ h2 {
   line-height: 0.1px;
 }
 
-.katie--zaferes > img {
+.component-img---main > img {
   border-radius: 10px;
 }
 
