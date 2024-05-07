@@ -19,7 +19,7 @@ export default function App() {
         <div>
             <NavBar />
             <Hero />
-            <section className='cards--list'>
+            <section className='cards-list'>
                 {cardData}
             </section>
             
