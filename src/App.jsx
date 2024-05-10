@@ -5,6 +5,7 @@ import Card from './components/Card.jsx';
 import data from './data.js';
 
 export default function App() {
+    //map method iterates over each element in data array and returns object element for each iteration
     const cardData = data.map((data) => {
         return <Card 
                     key={data.id}
