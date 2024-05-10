@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function Card(props) {
-    console.log(props)
+    //this statement is for conditionally rendering the card---badge
     let badgeText
     if (props.openSpots === 0) {
         badgeText = 'SOLD OUT'
@@ -24,3 +24,5 @@ export default function Card(props) {
         </div>
     )
 }
+
+//props receive data array of objects from Card component when rendered in App.jsx and access the individual properties via dot notation
