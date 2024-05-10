@@ -8,6 +8,7 @@ export default function App() {
     const cardData = data.map((data) => {
         return <Card 
                     key={data.id}
+                    //shorter way of declaring data's key=val pairs individually (key={data.id} is left in intentionally)
                     {...data}
                 />
     })
