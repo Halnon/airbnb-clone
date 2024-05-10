@@ -8,7 +8,7 @@ export default function App() {
     const cardData = data.map((data) => {
         return <Card 
                     key={data.id}
-                    data={data}
+                    {...data}
                 />
     })
     return (
